@@ -1,0 +1,33 @@
+﻿<Window x:Class="GamerShop_v1._0.AboutDeveloperWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GamerShop_v1._0"
+        mc:Ignorable="d"
+        Style="{StaticResource AD}"
+        Title="О разработчике" Height="250" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="200"/>
+        </Grid.RowDefinitions>
+
+        <Image Source="Resources/gs.png" Panel.ZIndex="2" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="0" 
+               Margin="5"/>
+
+        <TextBlock Grid.Row="1" TextAlignment="Center" Foreground="{StaticResource akcent}">
+            Данная программа разработана Noname челом.<LineBreak/>
+            Пользуйтесь работяги, и код от программы в открытом доступе,<LineBreak/>
+            и программа сама в открытом доступе!<LineBreak/>
+            <LineBreak/>
+
+            Могу ещё написать про спонсоров, но мне лень!<LineBreak/>
+            Там что-то про магазинчик с топовыми кроссовочками по низким ценам.<LineBreak/>
+            Но текст лень придумывать.<LineBreak/>
+            <LineBreak/>
+
+            @Copyright 2020. Все права защищены и пренадлежат Azl1337! <LineBreak/>Я сам понятия не имею кто это!
+        </TextBlock>
+    </Grid>
+</Window>

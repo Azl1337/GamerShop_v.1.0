@@ -1,0 +1,48 @@
+﻿<Window x:Class="GamerShop_v1._0.RecoverWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GamerShop_v1._0"
+        Style="{StaticResource RecoverWindow}"
+        mc:Ignorable="d"
+        Title="Восстановление" Height="230" Width="470" Closed="WindowClosed" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="28" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="35"/>
+        </Grid.RowDefinitions>
+        
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <Label Content="Восстановление аккаунта -"/>
+            <Label Content="{Binding ClientLogin}"/>
+        </StackPanel>
+        
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="160"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Label Content="Код восстановления :" Grid.Row="0"/>
+            <TextBox x:Name="TBoxIdenficatoinCode" Grid.Row="0" Grid.Column="1" Width="200" HorizontalAlignment="Left" Margin="5 0 0 0"/>
+            <Button x:Name="BtnCheck" Content="Проверить" HorizontalAlignment="Right" Margin="0 0 5 0" Grid.Row="0" Grid.Column="1" Click="BtnCheckClick"/>
+            <Label Content="Новый Пароль :" Grid.Row="1"/>
+            <TextBox x:Name="TBoxNewPassword" Grid.Row="1" Grid.Column="1" IsEnabled="False" TextChanged="TBoxNewPasswordTextChanged"/>
+
+        </Grid>
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal"
+                    HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button x:Name="BtnOK" Content="OK" Click="BtnOKClick" Margin="0 0 5 0" IsEnabled="False"/>
+            <Button x:Name="BtnCancel" Content="Отмена" 
+                    Click="BtnCancelClick"/>
+        </StackPanel>
+    </Grid>
+</Window>

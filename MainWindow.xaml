@@ -1,0 +1,41 @@
+﻿<Window x:Class="GamerShop_v1._0.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GamerShop_v1._0"
+        mc:Ignorable="d"
+        Style="{StaticResource BaseWindow}"
+        Title="GamerShop v1.0" Height="650" Width="1000" 
+        WindowStartupLocation="CenterScreen" Closed="WindowClosed" Closing="WindowClosing">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="90"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+
+        <Grid Background="{StaticResource background}">
+
+            <TextBlock Text="GamerShop" HorizontalAlignment="Center"
+                       VerticalAlignment="Center" FontSize="48" Foreground="{DynamicResource akcent}"/>
+            <Button x:Name="BtnBack" Content="Назад" HorizontalAlignment="Right" 
+                    VerticalAlignment="Center"
+                    Margin="0 0 10 0" Visibility="Collapsed"/>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120" MinWidth="100"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            
+            <Frame x:Name="MenuFrame" Grid.Column="0" NavigationUIVisibility="Hidden"/>
+            <Frame x:Name="MainFrame" Grid.Column="1" NavigationUIVisibility="Hidden"/>
+        </Grid>
+
+        <Grid Grid.Row="2" Background="{StaticResource background}">
+            <TextBlock Text="@Copyright 2020. Все права защищены и пренадлежат Azl1337! Я сам понятия не имею кто это!"
+                       HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#434343"/>
+        </Grid>
+    </Grid>
+</Window>
