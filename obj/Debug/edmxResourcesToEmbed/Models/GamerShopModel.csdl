@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GamerShopModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Client">
+    <Key>
+      <PropertyRef Name="IdClient" />
+    </Key>
+    <Property Name="IdClient" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ClientLogin" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ClientPassword" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ClientLastName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ClientName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ClientPatronymic" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ClientCityAccommodation" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ClientBirthDate" Type="DateTime" Precision="0" />
+    <Property Name="IdRole" Type="Byte" />
+    <Property Name="ClientIdentification" Type="Int32" />
+    <NavigationProperty Name="Role" Relationship="Self.FK__Client__IdRole__59063A47" FromRole="Client" ToRole="Role" />
+    <NavigationProperty Name="Sales" Relationship="Self.FK__Sale__IdClient__6B24EA82" FromRole="Client" ToRole="Sale" />
+  </EntityType>
+  <EntityType Name="Developer">
+    <Key>
+      <PropertyRef Name="IdDeveloper" />
+    </Key>
+    <Property Name="IdDeveloper" Type="Byte" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NameDevCorp" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DevDescription" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="DevDirectorLastName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="DevDirectorName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="DevDirectorPatronymic" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="DateOfDevCorpWasFounded" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Games" Relationship="Self.FK__Game__IdDevelope__5070F446" FromRole="Developer" ToRole="Game" />
+  </EntityType>
+  <EntityType Name="Game">
+    <Key>
+      <PropertyRef Name="IdGame" />
+    </Key>
+    <Property Name="IdGame" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="GamePhoto" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="GameTitle" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IdGenre" Type="Byte" />
+    <Property Name="GameDescription" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="IdDeveloper" Type="Byte" />
+    <Property Name="IdPublisher" Type="Byte" />
+    <Property Name="GameReleaseDate" Type="DateTime" Precision="0" />
+    <Property Name="GamePrice" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+    <Property Name="GameEvaluation" Type="Byte" />
+    <NavigationProperty Name="Developer" Relationship="Self.FK__Game__IdDevelope__5070F446" FromRole="Game" ToRole="Developer" />
+    <NavigationProperty Name="Genre" Relationship="Self.FK__Game__IdGenre__4F7CD00D" FromRole="Game" ToRole="Genre" />
+    <NavigationProperty Name="Publisher" Relationship="Self.FK__Game__IdPublishe__5165187F" FromRole="Game" ToRole="Publisher" />
+    <NavigationProperty Name="Keys" Relationship="Self.FK__Key__IdGame__5CD6CB2B" FromRole="Game" ToRole="Key" />
+  </EntityType>
+  <EntityType Name="Genre">
+    <Key>
+      <PropertyRef Name="IdGenre" />
+    </Key>
+    <Property Name="IdGenre" Type="Byte" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="GenreTitle" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="GenreDescription" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Games" Relationship="Self.FK__Game__IdGenre__4F7CD00D" FromRole="Genre" ToRole="Game" />
+  </EntityType>
+  <EntityType Name="Key">
+    <Key>
+      <PropertyRef Name="IdKey" />
+    </Key>
+    <Property Name="IdKey" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdGame" Type="Int32" />
+    <Property Name="Key1" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+    <Property Name="IsSoldOut" Type="Boolean" />
+    <NavigationProperty Name="Game" Relationship="Self.FK__Key__IdGame__5CD6CB2B" FromRole="Key" ToRole="Game" />
+    <NavigationProperty Name="Sales" Relationship="Self.FK__Sale__IdKey__6A30C649" FromRole="Key" ToRole="Sale" />
+  </EntityType>
+  <EntityType Name="Publisher">
+    <Key>
+      <PropertyRef Name="IdPublisher" />
+    </Key>
+    <Property Name="IdPublisher" Type="Byte" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NamePubCorp" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PubDescription" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="PubDirectorLastName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="PubDirectorName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="PubDirectorPatronymic" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="DateOfPubCorpWasFounded" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Games" Relationship="Self.FK__Game__IdPublishe__5165187F" FromRole="Publisher" ToRole="Game" />
+  </EntityType>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="IdRole" />
+    </Key>
+    <Property Name="IdRole" Type="Byte" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RoleTitle" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Clients" Relationship="Self.FK__Client__IdRole__59063A47" FromRole="Role" ToRole="Client" />
+  </EntityType>
+  <EntityType Name="Sale">
+    <Key>
+      <PropertyRef Name="IdSale" />
+    </Key>
+    <Property Name="IdSale" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdKey" Type="Int32" />
+    <Property Name="IdClient" Type="Int32" />
+    <Property Name="SaleDate" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Client" Relationship="Self.FK__Sale__IdClient__6B24EA82" FromRole="Sale" ToRole="Client" />
+    <NavigationProperty Name="Key" Relationship="Self.FK__Sale__IdKey__6A30C649" FromRole="Sale" ToRole="Key" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK__Client__IdRole__59063A47">
+    <End Role="Role" Type="Self.Role" Multiplicity="0..1" />
+    <End Role="Client" Type="Self.Client" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role">
+        <PropertyRef Name="IdRole" />
+      </Principal>
+      <Dependent Role="Client">
+        <PropertyRef Name="IdRole" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Sale__IdClient__6B24EA82">
+    <End Role="Client" Type="Self.Client" Multiplicity="0..1" />
+    <End Role="Sale" Type="Self.Sale" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="IdClient" />
+      </Principal>
+      <Dependent Role="Sale">
+        <PropertyRef Name="IdClient" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Game__IdDevelope__5070F446">
+    <End Role="Developer" Type="Self.Developer" Multiplicity="0..1" />
+    <End Role="Game" Type="Self.Game" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Developer">
+        <PropertyRef Name="IdDeveloper" />
+      </Principal>
+      <Dependent Role="Game">
+        <PropertyRef Name="IdDeveloper" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Game__IdGenre__4F7CD00D">
+    <End Role="Genre" Type="Self.Genre" Multiplicity="0..1" />
+    <End Role="Game" Type="Self.Game" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Genre">
+        <PropertyRef Name="IdGenre" />
+      </Principal>
+      <Dependent Role="Game">
+        <PropertyRef Name="IdGenre" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Game__IdPublishe__5165187F">
+    <End Role="Publisher" Type="Self.Publisher" Multiplicity="0..1" />
+    <End Role="Game" Type="Self.Game" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Publisher">
+        <PropertyRef Name="IdPublisher" />
+      </Principal>
+      <Dependent Role="Game">
+        <PropertyRef Name="IdPublisher" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Key__IdGame__5CD6CB2B">
+    <End Role="Game" Type="Self.Game" Multiplicity="0..1" />
+    <End Role="Key" Type="Self.Key" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Game">
+        <PropertyRef Name="IdGame" />
+      </Principal>
+      <Dependent Role="Key">
+        <PropertyRef Name="IdGame" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Sale__IdKey__6A30C649">
+    <End Role="Key" Type="Self.Key" Multiplicity="0..1" />
+    <End Role="Sale" Type="Self.Sale" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Key">
+        <PropertyRef Name="IdKey" />
+      </Principal>
+      <Dependent Role="Sale">
+        <PropertyRef Name="IdKey" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="GamerShopEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Clients" EntityType="Self.Client" />
+    <EntitySet Name="Developers" EntityType="Self.Developer" />
+    <EntitySet Name="Games" EntityType="Self.Game" />
+    <EntitySet Name="Genres" EntityType="Self.Genre" />
+    <EntitySet Name="Keys" EntityType="Self.Key" />
+    <EntitySet Name="Publishers" EntityType="Self.Publisher" />
+    <EntitySet Name="Roles" EntityType="Self.Role" />
+    <EntitySet Name="Sales" EntityType="Self.Sale" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <AssociationSet Name="FK__Client__IdRole__59063A47" Association="Self.FK__Client__IdRole__59063A47">
+      <End Role="Role" EntitySet="Roles" />
+      <End Role="Client" EntitySet="Clients" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Sale__IdClient__6B24EA82" Association="Self.FK__Sale__IdClient__6B24EA82">
+      <End Role="Client" EntitySet="Clients" />
+      <End Role="Sale" EntitySet="Sales" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Game__IdDevelope__5070F446" Association="Self.FK__Game__IdDevelope__5070F446">
+      <End Role="Developer" EntitySet="Developers" />
+      <End Role="Game" EntitySet="Games" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Game__IdGenre__4F7CD00D" Association="Self.FK__Game__IdGenre__4F7CD00D">
+      <End Role="Genre" EntitySet="Genres" />
+      <End Role="Game" EntitySet="Games" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Game__IdPublishe__5165187F" Association="Self.FK__Game__IdPublishe__5165187F">
+      <End Role="Publisher" EntitySet="Publishers" />
+      <End Role="Game" EntitySet="Games" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Key__IdGame__5CD6CB2B" Association="Self.FK__Key__IdGame__5CD6CB2B">
+      <End Role="Game" EntitySet="Games" />
+      <End Role="Key" EntitySet="Keys" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Sale__IdKey__6A30C649" Association="Self.FK__Sale__IdKey__6A30C649">
+      <End Role="Key" EntitySet="Keys" />
+      <End Role="Sale" EntitySet="Sales" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

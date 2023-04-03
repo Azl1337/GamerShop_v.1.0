@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище GamerShopModelContainer" CdmEntityContainer="GamerShopEntities">
+    <EntitySetMapping Name="Clients">
+      <EntityTypeMapping TypeName="GamerShopModel.Client">
+        <MappingFragment StoreEntitySet="Client">
+          <ScalarProperty Name="IdClient" ColumnName="IdClient" />
+          <ScalarProperty Name="ClientLogin" ColumnName="ClientLogin" />
+          <ScalarProperty Name="ClientPassword" ColumnName="ClientPassword" />
+          <ScalarProperty Name="ClientLastName" ColumnName="ClientLastName" />
+          <ScalarProperty Name="ClientName" ColumnName="ClientName" />
+          <ScalarProperty Name="ClientPatronymic" ColumnName="ClientPatronymic" />
+          <ScalarProperty Name="ClientCityAccommodation" ColumnName="ClientCityAccommodation" />
+          <ScalarProperty Name="ClientBirthDate" ColumnName="ClientBirthDate" />
+          <ScalarProperty Name="IdRole" ColumnName="IdRole" />
+          <ScalarProperty Name="ClientIdentification" ColumnName="ClientIdentification" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Developers">
+      <EntityTypeMapping TypeName="GamerShopModel.Developer">
+        <MappingFragment StoreEntitySet="Developer">
+          <ScalarProperty Name="IdDeveloper" ColumnName="IdDeveloper" />
+          <ScalarProperty Name="NameDevCorp" ColumnName="NameDevCorp" />
+          <ScalarProperty Name="DevDescription" ColumnName="DevDescription" />
+          <ScalarProperty Name="DevDirectorLastName" ColumnName="DevDirectorLastName" />
+          <ScalarProperty Name="DevDirectorName" ColumnName="DevDirectorName" />
+          <ScalarProperty Name="DevDirectorPatronymic" ColumnName="DevDirectorPatronymic" />
+          <ScalarProperty Name="DateOfDevCorpWasFounded" ColumnName="DateOfDevCorpWasFounded" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Games">
+      <EntityTypeMapping TypeName="GamerShopModel.Game">
+        <MappingFragment StoreEntitySet="Game">
+          <ScalarProperty Name="IdGame" ColumnName="IdGame" />
+          <ScalarProperty Name="GamePhoto" ColumnName="GamePhoto" />
+          <ScalarProperty Name="GameTitle" ColumnName="GameTitle" />
+          <ScalarProperty Name="IdGenre" ColumnName="IdGenre" />
+          <ScalarProperty Name="GameDescription" ColumnName="GameDescription" />
+          <ScalarProperty Name="IdDeveloper" ColumnName="IdDeveloper" />
+          <ScalarProperty Name="IdPublisher" ColumnName="IdPublisher" />
+          <ScalarProperty Name="GameReleaseDate" ColumnName="GameReleaseDate" />
+          <ScalarProperty Name="GamePrice" ColumnName="GamePrice" />
+          <ScalarProperty Name="GameEvaluation" ColumnName="GameEvaluation" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Genres">
+      <EntityTypeMapping TypeName="GamerShopModel.Genre">
+        <MappingFragment StoreEntitySet="Genre">
+          <ScalarProperty Name="IdGenre" ColumnName="IdGenre" />
+          <ScalarProperty Name="GenreTitle" ColumnName="GenreTitle" />
+          <ScalarProperty Name="GenreDescription" ColumnName="GenreDescription" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Keys">
+      <EntityTypeMapping TypeName="GamerShopModel.Key">
+        <MappingFragment StoreEntitySet="Key">
+          <ScalarProperty Name="IdKey" ColumnName="IdKey" />
+          <ScalarProperty Name="IdGame" ColumnName="IdGame" />
+          <ScalarProperty Name="Key1" ColumnName="Key" />
+          <ScalarProperty Name="IsSoldOut" ColumnName="IsSoldOut" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Publishers">
+      <EntityTypeMapping TypeName="GamerShopModel.Publisher">
+        <MappingFragment StoreEntitySet="Publisher">
+          <ScalarProperty Name="IdPublisher" ColumnName="IdPublisher" />
+          <ScalarProperty Name="NamePubCorp" ColumnName="NamePubCorp" />
+          <ScalarProperty Name="PubDescription" ColumnName="PubDescription" />
+          <ScalarProperty Name="PubDirectorLastName" ColumnName="PubDirectorLastName" />
+          <ScalarProperty Name="PubDirectorName" ColumnName="PubDirectorName" />
+          <ScalarProperty Name="PubDirectorPatronymic" ColumnName="PubDirectorPatronymic" />
+          <ScalarProperty Name="DateOfPubCorpWasFounded" ColumnName="DateOfPubCorpWasFounded" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Roles">
+      <EntityTypeMapping TypeName="GamerShopModel.Role">
+        <MappingFragment StoreEntitySet="Role">
+          <ScalarProperty Name="IdRole" ColumnName="IdRole" />
+          <ScalarProperty Name="RoleTitle" ColumnName="RoleTitle" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sales">
+      <EntityTypeMapping TypeName="GamerShopModel.Sale">
+        <MappingFragment StoreEntitySet="Sale">
+          <ScalarProperty Name="IdSale" ColumnName="IdSale" />
+          <ScalarProperty Name="IdKey" ColumnName="IdKey" />
+          <ScalarProperty Name="IdClient" ColumnName="IdClient" />
+          <ScalarProperty Name="SaleDate" ColumnName="SaleDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="GamerShopModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

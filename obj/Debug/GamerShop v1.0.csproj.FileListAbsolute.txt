@@ -1,0 +1,179 @@
+C:\Users\АЗИТромицын\source\repos\GamerShop\GamerShop v1.0\bin\Debug\GamerShop v1.0.exe.config
+C:\Users\АЗИТромицын\source\repos\GamerShop\GamerShop v1.0\bin\Debug\GamerShop v1.0.exe
+C:\Users\АЗИТромицын\source\repos\GamerShop\GamerShop v1.0\bin\Debug\GamerShop v1.0.pdb
+C:\Users\АЗИТромицын\source\repos\GamerShop\GamerShop v1.0\obj\Debug\GamerShop v1.0.csprojAssemblyReference.cache
+C:\Users\АЗИТромицын\source\repos\GamerShop\GamerShop v1.0\obj\Debug\LoginWindow.g.cs
+C:\Users\АЗИТромицын\source\repos\GamerShop\GamerShop v1.0\obj\Debug\MainWindow.g.cs
+C:\Users\АЗИТромицын\source\repos\GamerShop\GamerShop v1.0\obj\Debug\App.g.cs
+C:\Users\АЗИТромицын\source\repos\GamerShop\GamerShop v1.0\obj\Debug\GamerShop v1.0_MarkupCompile.cache
+C:\Users\АЗИТромицын\source\repos\GamerShop\GamerShop v1.0\obj\Debug\GamerShop v1.0_MarkupCompile.lref
+C:\Users\АЗИТромицын\source\repos\GamerShop\GamerShop v1.0\obj\Debug\App.baml
+C:\Users\АЗИТромицын\source\repos\GamerShop\GamerShop v1.0\obj\Debug\LoginWindow.baml
+C:\Users\АЗИТромицын\source\repos\GamerShop\GamerShop v1.0\obj\Debug\MainWindow.baml
+C:\Users\АЗИТромицын\source\repos\GamerShop\GamerShop v1.0\obj\Debug\GamerShop v1.0.g.resources
+C:\Users\АЗИТромицын\source\repos\GamerShop\GamerShop v1.0\obj\Debug\GamerShop_v1._0.Properties.Resources.resources
+C:\Users\АЗИТромицын\source\repos\GamerShop\GamerShop v1.0\obj\Debug\GamerShop v1.0.csproj.GenerateResource.cache
+C:\Users\АЗИТромицын\source\repos\GamerShop\GamerShop v1.0\obj\Debug\GamerShop v1.0.exe
+C:\Users\АЗИТромицын\source\repos\GamerShop\GamerShop v1.0\obj\Debug\GamerShop v1.0.pdb
+C:\Users\АЗИТромицын\source\repos\GamerShop\GamerShop v1.0\obj\Debug\Pages\AdminMenu.g.cs
+C:\Users\АЗИТромицын\source\repos\GamerShop\GamerShop v1.0\obj\Debug\Pages\MainPage.g.cs
+C:\Users\АЗИТромицын\source\repos\GamerShop\GamerShop v1.0\obj\Debug\Pages\AdminMenu.baml
+C:\Users\АЗИТромицын\source\repos\GamerShop\GamerShop v1.0\obj\Debug\Pages\MainPage.baml
+C:\Users\АЗИТромицын\source\repos\GamerShop\GamerShop v1.0\obj\Debug\Pages\CatalogPage.g.cs
+C:\Users\АЗИТромицын\source\repos\GamerShop\GamerShop v1.0\obj\Debug\Pages\CatalogPage.baml
+C:\Users\Kirill\OneDrive\Рабочий стол\azat_delbk\GamerShop\GamerShop v1.0\obj\Debug\GamerShop v1.0.csprojAssemblyReference.cache
+C:\Users\Kirill\OneDrive\Рабочий стол\azat_delbk\GamerShop\GamerShop v1.0\obj\Debug\LoginWindow.g.cs
+C:\Users\Kirill\OneDrive\Рабочий стол\azat_delbk\GamerShop\GamerShop v1.0\obj\Debug\MainWindow.g.cs
+C:\Users\Kirill\OneDrive\Рабочий стол\azat_delbk\GamerShop\GamerShop v1.0\obj\Debug\Pages\AdminMenu.g.cs
+C:\Users\Kirill\OneDrive\Рабочий стол\azat_delbk\GamerShop\GamerShop v1.0\obj\Debug\Pages\CatalogPage.g.cs
+C:\Users\Kirill\OneDrive\Рабочий стол\azat_delbk\GamerShop\GamerShop v1.0\obj\Debug\App.g.cs
+C:\Users\Kirill\OneDrive\Рабочий стол\azat_delbk\GamerShop\GamerShop v1.0\obj\Debug\GamerShop v1.0_MarkupCompile.cache
+C:\Users\Kirill\OneDrive\Рабочий стол\azat_delbk\GamerShop\GamerShop v1.0\obj\Debug\GamerShop v1.0_MarkupCompile.lref
+C:\Users\Kirill\OneDrive\Рабочий стол\azat_delbk\GamerShop\GamerShop v1.0\obj\Debug\GamerShop v1.0.exe
+C:\Users\Kirill\OneDrive\Рабочий стол\azat_delbk\GamerShop\GamerShop v1.0\obj\Debug\GamerShop v1.0.pdb
+C:\Users\Kirill\OneDrive\Рабочий стол\azat_delbk\GamerShop\GamerShop v1.0\bin\Debug\GamerShop v1.0.exe.config
+C:\Users\Kirill\OneDrive\Рабочий стол\azat_delbk\GamerShop\GamerShop v1.0\bin\Debug\GamerShop v1.0.exe
+C:\Users\Kirill\OneDrive\Рабочий стол\azat_delbk\GamerShop\GamerShop v1.0\bin\Debug\GamerShop v1.0.pdb
+C:\Users\Kirill\OneDrive\Рабочий стол\azat_delbk\GamerShop\GamerShop v1.0\obj\Debug\App.baml
+C:\Users\Kirill\OneDrive\Рабочий стол\azat_delbk\GamerShop\GamerShop v1.0\obj\Debug\LoginWindow.baml
+C:\Users\Kirill\OneDrive\Рабочий стол\azat_delbk\GamerShop\GamerShop v1.0\obj\Debug\MainWindow.baml
+C:\Users\Kirill\OneDrive\Рабочий стол\azat_delbk\GamerShop\GamerShop v1.0\obj\Debug\Pages\AdminMenu.baml
+C:\Users\Kirill\OneDrive\Рабочий стол\azat_delbk\GamerShop\GamerShop v1.0\obj\Debug\Pages\CatalogPage.baml
+C:\Users\Kirill\OneDrive\Рабочий стол\azat_delbk\GamerShop\GamerShop v1.0\obj\Debug\GamerShop v1.0.g.resources
+C:\Users\Kirill\OneDrive\Рабочий стол\azat_delbk\GamerShop\GamerShop v1.0\obj\Debug\GamerShop_v1._0.Properties.Resources.resources
+C:\Users\Kirill\OneDrive\Рабочий стол\azat_delbk\GamerShop\GamerShop v1.0\obj\Debug\GamerShop v1.0.csproj.GenerateResource.cache
+C:\Users\Kirill\OneDrive\Рабочий стол\azat_delbk\GamerShop\GamerShop v1.0\obj\Debug\GamerShop v1.0.csproj.CoreCompileInputs.cache
+C:\Users\Kirill\OneDrive\Рабочий стол\azat_delbk\GamerShop\GamerShop v1.0\bin\Debug\EntityFramework.dll
+C:\Users\Kirill\OneDrive\Рабочий стол\azat_delbk\GamerShop\GamerShop v1.0\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kirill\OneDrive\Рабочий стол\azat_delbk\GamerShop\GamerShop v1.0\bin\Debug\EntityFramework.xml
+C:\Users\Kirill\OneDrive\Рабочий стол\azat_delbk\GamerShop\GamerShop v1.0\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kirill\OneDrive\Рабочий стол\azat_delbk\GamerShop\GamerShop v1.0\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Kirill\OneDrive\Рабочий стол\azat_delbk\GamerShop\GamerShop v1.0\obj\Debug\GamerShop v1.0_Content.g.cs
+C:\Users\Kirill\OneDrive\Рабочий стол\azat_delbk\GamerShop\GamerShop v1.0\obj\Debug\GamerShop v1.0.csproj.CopyComplete
+C:\Users\Kirill\OneDrive\Рабочий стол\azat_delbk\GamerShop\GamerShop v1.0\obj\Debug\Pages\ClientListPage.g.cs
+C:\Users\Kirill\OneDrive\Рабочий стол\azat_delbk\GamerShop\GamerShop v1.0\obj\Debug\Pages\ClientListPage.baml
+C:\Users\Kirill\OneDrive\Рабочий стол\azat_delbk\GamerShop\GamerShop v1.0\obj\Debug\Pages\AddOrEditGame.g.cs
+C:\Users\Kirill\OneDrive\Рабочий стол\azat_delbk\GamerShop\GamerShop v1.0\obj\Debug\Pages\AddOrEditGame.baml
+C:\Users\Kirill\OneDrive\Рабочий стол\azat_delbk\GamerShop\GamerShop v1.0\obj\Debug\AboutDeveloperWindow.g.cs
+C:\Users\Kirill\OneDrive\Рабочий стол\azat_delbk\GamerShop\GamerShop v1.0\obj\Debug\Pages\AddOrEditClient.g.cs
+C:\Users\Kirill\OneDrive\Рабочий стол\azat_delbk\GamerShop\GamerShop v1.0\obj\Debug\Pages\SellesStoryPage.g.cs
+C:\Users\Kirill\OneDrive\Рабочий стол\azat_delbk\GamerShop\GamerShop v1.0\obj\Debug\AboutDeveloperWindow.baml
+C:\Users\Kirill\OneDrive\Рабочий стол\azat_delbk\GamerShop\GamerShop v1.0\obj\Debug\Pages\AddOrEditClient.baml
+C:\Users\Kirill\OneDrive\Рабочий стол\azat_delbk\GamerShop\GamerShop v1.0\obj\Debug\Pages\SellesStoryPage.baml
+C:\Users\Kirill\OneDrive\Рабочий стол\azat_delbk\GamerShop\GamerShop v1.0\obj\Debug\RegistrationWindow.g.cs
+C:\Users\Kirill\OneDrive\Рабочий стол\azat_delbk\GamerShop\GamerShop v1.0\obj\Debug\RegistrationWindow.baml
+C:\Users\Kirill\OneDrive\Рабочий стол\azat_delbk\GamerShop\GamerShop v1.0\obj\Debug\Pages\UserProfile.g.cs
+C:\Users\Kirill\OneDrive\Рабочий стол\azat_delbk\GamerShop\GamerShop v1.0\obj\Debug\Pages\UserProfile.baml
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\AboutDeveloperWindow.g.cs
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\LoginWindow.g.cs
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\MainWindow.g.cs
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\Pages\AddOrEditClient.g.cs
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\Pages\AddOrEditGame.g.cs
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\Pages\AdminMenu.g.cs
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\Pages\CatalogPage.g.cs
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\Pages\ClientListPage.g.cs
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\Pages\SellesStoryPage.g.cs
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\Pages\UserProfile.g.cs
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\RegistrationWindow.g.cs
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\App.g.cs
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\GamerShop v1.0_Content.g.cs
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\GamerShop v1.0_MarkupCompile.cache
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\GamerShop v1.0_MarkupCompile.lref
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\GamerShop v1.0.exe
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\GamerShop v1.0.pdb
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\bin\Debug\GamerShop v1.0.exe.config
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\bin\Debug\GamerShop v1.0.exe
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\bin\Debug\GamerShop v1.0.pdb
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\bin\Debug\EntityFramework.dll
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\bin\Debug\EntityFramework.xml
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\App.baml
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\AboutDeveloperWindow.baml
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\LoginWindow.baml
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\MainWindow.baml
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\Pages\AddOrEditClient.baml
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\Pages\AddOrEditGame.baml
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\Pages\AdminMenu.baml
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\Pages\CatalogPage.baml
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\Pages\ClientListPage.baml
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\Pages\SellesStoryPage.baml
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\Pages\UserProfile.baml
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\RegistrationWindow.baml
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\GamerShop v1.0.g.resources
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\GamerShop_v1._0.Properties.Resources.resources
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\GamerShop v1.0.csproj.GenerateResource.cache
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\GamerShop v1.0.csproj.CopyComplete
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\Pages\GamePage.g.cs
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\Pages\GamePage.baml
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\Pages\KeyPage.g.cs
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\Pages\KeyPage.baml
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\Pages\DeveloperListPage.g.cs
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\Pages\PublisherListPage.g.cs
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\Pages\DeveloperListPage.baml
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\Pages\PublisherListPage.baml
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\Pages\AddOrEditDeveloper.g.cs
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\Pages\AddOrEditPublisher.g.cs
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\Pages\AddOrEditDeveloper.baml
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\Pages\AddOrEditPublisher.baml
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\RecoverWindow.g.cs
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\RecoverWindow.baml
+C:\Users\АЗИТромицын\Desktop\GamerShop\GamerShop v1.0\obj\Debug\GamerShop v1.0.csprojAssemblyReference.cache
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\bin\Debug\GamerShop v1.0.exe.config
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\bin\Debug\GamerShop v1.0.exe
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\bin\Debug\GamerShop v1.0.pdb
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\bin\Debug\EntityFramework.dll
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\bin\Debug\EntityFramework.xml
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\GamerShop v1.0.csprojAssemblyReference.cache
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\AboutDeveloperWindow.g.cs
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\LoginWindow.g.cs
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\MainWindow.g.cs
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\Pages\AddOrEditClient.g.cs
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\Pages\AddOrEditDeveloper.g.cs
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\Pages\AddOrEditGame.g.cs
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\Pages\AddOrEditPublisher.g.cs
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\Pages\AdminMenu.g.cs
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\Pages\CatalogPage.g.cs
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\Pages\ClientListPage.g.cs
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\Pages\DeveloperListPage.g.cs
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\Pages\GamePage.g.cs
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\Pages\KeyPage.g.cs
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\Pages\PublisherListPage.g.cs
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\Pages\SellesStoryPage.g.cs
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\Pages\UserProfile.g.cs
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\RecoverWindow.g.cs
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\RegistrationWindow.g.cs
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\App.g.cs
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\GamerShop v1.0_Content.g.cs
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\GamerShop v1.0_MarkupCompile.cache
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\GamerShop v1.0_MarkupCompile.lref
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\App.baml
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\AboutDeveloperWindow.baml
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\LoginWindow.baml
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\MainWindow.baml
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\Pages\AddOrEditClient.baml
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\Pages\AddOrEditDeveloper.baml
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\Pages\AddOrEditGame.baml
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\Pages\AddOrEditPublisher.baml
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\Pages\AdminMenu.baml
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\Pages\CatalogPage.baml
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\Pages\ClientListPage.baml
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\Pages\DeveloperListPage.baml
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\Pages\GamePage.baml
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\Pages\KeyPage.baml
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\Pages\PublisherListPage.baml
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\Pages\SellesStoryPage.baml
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\Pages\UserProfile.baml
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\RecoverWindow.baml
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\RegistrationWindow.baml
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\GamerShop v1.0.g.resources
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\GamerShop_v1._0.Properties.Resources.resources
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\GamerShop v1.0.csproj.GenerateResource.cache
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\GamerShop v1.0.csproj.CoreCompileInputs.cache
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\GamerShop v1.0.csproj.CopyComplete
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\GamerShop v1.0.exe
+C:\Users\Kirill\OneDrive\Рабочий стол\GamerShop\GamerShop v1.0\obj\Debug\GamerShop v1.0.pdb
