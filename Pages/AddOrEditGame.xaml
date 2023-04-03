@@ -1,0 +1,89 @@
+﻿<Page x:Class="GamerShop_v1._0.Pages.AddOrEditGame"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:GamerShop_v1._0.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AddOrEditGame" IsVisibleChanged="PageIsVisibleChanged">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition MaxHeight="80"/>
+            <RowDefinition MaxHeight="80"/>
+            <RowDefinition MaxHeight="80"/>
+            <RowDefinition MaxHeight="80"/>
+            <RowDefinition MaxHeight="80"/>
+            <RowDefinition MaxHeight="150"/>
+            <RowDefinition MaxHeight="150"/>
+            <RowDefinition MaxHeight="150"/>
+            <RowDefinition MaxHeight="80"/>
+        </Grid.RowDefinitions>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        
+        <Label Content="Название игры" Grid.Row="0"/>
+        <Label Content="Описание" Grid.Row="1"/>
+        <Label Content="Фото игры" Grid.Row="5"/>
+
+        <Grid Grid.Row="2" Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition MaxWidth="200"/>
+                <ColumnDefinition/>
+                <ColumnDefinition MaxWidth="200"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label Content="Жанр" Grid.Column="0"/>
+            <ComboBox x:Name="CBoxGameGenre" SelectedItem="{Binding Genre}" Grid.Column="1" Margin="5 5" DisplayMemberPath="GenreTitle" SelectedValuePath="IdGenre"/>
+            <Label Content="Дата выхода" Grid.Column="2"/>
+            <DatePicker x:Name="DPickerGameRelease" SelectedDate="{Binding GameReleaseDate}" Grid.Column="4" Width="200" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        </Grid>
+
+
+        <Grid Grid.Row="3" Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition MaxWidth="200"/>
+                <ColumnDefinition/>
+                <ColumnDefinition MaxWidth="200"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label Content="Разработчик" Grid.Column="0"/>
+            <ComboBox x:Name="CBoxGameDeveloper" SelectedItem="{Binding Developer}" Grid.Column="1" Margin="5 5" DisplayMemberPath="NameDevCorp" SelectedValuePath="IdDeveloper"/>
+            <Label Content="Издатель" Grid.Column="2"/>
+            <ComboBox x:Name="CBoxGamePublisher" SelectedItem="{Binding Publisher}" Grid.Column="3" Margin="5 5" DisplayMemberPath="NamePubCorp" SelectedValuePath="IdPublisher"/>
+        </Grid>
+
+        <Grid Grid.Row="4" Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition MaxWidth="200"/>
+                <ColumnDefinition/>
+                <ColumnDefinition MaxWidth="200"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label Content="Цена" Grid.Column="0"/>
+            <TextBox x:Name="TBoxGamePrice" Text="{Binding GamePrice}" Grid.Column="1" Margin="5 5"/>
+            <Label Content="Оценка" Grid.Column="2"/>
+            <StackPanel Grid.Column="3"  HorizontalAlignment="Left" Orientation="Horizontal">
+                <TextBox x:Name="TBoxGameEvaluation" Text="{Binding GameEvaluation}" Margin="5 5"  Width="50"/>
+                <Label Content="из 10"/>
+            </StackPanel>
+        </Grid>
+
+        <TextBox x:Name="TBoxGameTitle" Text="{Binding GameTitle}" Grid.Row="0" Grid.Column="1" Margin="5 5"/>
+        <TextBox x:Name="TBoxGameDescription" Text="{Binding GameDescription}" Grid.Row="1" Grid.Column="1" Margin="5 5"/>
+
+        <Button x:Name="BtnLoadPhoto" Content="Загрузить" Grid.Row="6" Click="BtnLoadPhotoClick" ToolTip="Загрузка фотографий расширения jpg , jpeg , png , gif"/>
+
+        <Image x:Name="GamePhoto" Source="{Binding GetPhoto}" Grid.RowSpan="3" Grid.Row="5" Grid.Column="1" HorizontalAlignment="Left"/>
+
+        <StackPanel Grid.Row="9" Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center">
+            <Button x:Name="BtnOK" Content="OK" Click="BtnOkClick"/>
+            <Button x:Name="BtnCancel" Content="Cancel" Click="BtnCancelClick" Margin="5 0 5 0"/>
+        </StackPanel>
+    </Grid>
+</Page>
